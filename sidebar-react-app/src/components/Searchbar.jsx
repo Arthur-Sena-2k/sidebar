@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react'
 import '../assets/style-components/searchbar.css'
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
@@ -6,22 +7,6 @@ import { InputAdornment, FormControl,  InputLabel,  OutlinedInput} from '@mui/ma
 
 const Searchbar = () => {
   return (
-    /*<div className='header'>
-       <div className="content">
-            <TextField 
-            id="standard-basic"   
-            variant='outlined' className='textfield'
-            InputProps={{
-                startAdornment: (
-                <InputAdornment position='end' className='icon-search'>
-                    <SearchOutlinedIcon />
-                </InputAdornment>
-                ),
-            }}  
-            />
-            <NotificationsNoneOutlinedIcon/>
-        </div>
-    </div>*/
     <div className='header'>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1.5vh 1vw' }} >
             <FormControl sx={{ width: '20vw'}} variant="outlined">
