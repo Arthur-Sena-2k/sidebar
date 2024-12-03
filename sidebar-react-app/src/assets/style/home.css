@@ -9,7 +9,7 @@
 }
 
 .home{
-    display: flex;  
+    display: flex;
     flex-direction: column;
     margin: 0;
     padding: 0;
@@ -40,7 +40,7 @@
     width: 30vw;
     text-align: center;
     padding-left: 2vw;
-    
+
 }
 
 .textos h1{
@@ -57,7 +57,7 @@
 .grid{
     display: flex;
     position: relative;
-    justify-content: space-around; 
+    justify-content: space-around;
     left: 16.5vw;
     bottom: 83vh;
     background-color: #F0F1F3;
